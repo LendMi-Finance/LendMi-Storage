@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
+    "State": "Granted",
     "Validated At": "2024-04-30 07:59:07.444764322 UTC",
     "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2024-04-30 07:59:07.444767260 UTC",
+    "Updated At": "2024-04-30 07:59:52.806415212 UTC",
     "Active Request ID": "452e48cf-0959-45df-8898-78d2e9b49e9f",
     "On Chain Address": "f1uihce54rr3xqb3llzmfu4duesglrn6t54m2qmea",
     "Multisig Address": "false",
@@ -52,9 +52,16 @@
       "Request Type": "First",
       "Created At": "2024-04-30 07:59:07.444769031 UTC",
       "Updated At": "2024-04-30 07:59:07.444769609 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1PiB",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2024-04-30 07:59:50.129000000 UTC",
+          "Message CID": "bafy2bzaceawhpip2psxslim46ram65j77tkhuycuguugqdxfobfqilnkyjq4w"
+        }
+      ]
     }
   ]
 }
