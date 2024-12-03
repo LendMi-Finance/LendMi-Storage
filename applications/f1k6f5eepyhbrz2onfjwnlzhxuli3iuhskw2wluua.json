@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1k6f5eepyhbrz2onfjwnlzhxuli3iuhskw2wluua",
+  "Issue Number": "21",
+  "Client": {
+    "Name": "Column Sonar Data Archive on AWS",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.ncei.noaa.gov/maps/water-column-sonar/; https://cires.gitbook.io/ncei-wcsd-archive",
+    "Social Media": "https://www.ncei.noaa.gov/maps/water-column-sonar/; https://cires.gitbook.io/ncei-wcsd-archive",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "NOAA collects and uses active acoustic (or sonar) data for a variety of mapping requirements. Water column sonar data focus on the area from near the surface of the ocean to the seafloor. Primary uses of these specific sonar data include 3-D mapping of fish schools and other mid-water marine organisms; assessing biological abundance; species identification; and habitat characterization. Other uses include mapping underwater gas seeps and remotely monitoring undersea oil spills. NCEI archives water column sonar data collected by NOAA line offices, academia, industry, and international institutions. Use the CruisePack data packaging tool to submit water column sonar data to the archive.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Water column sonar data, the acoustic back-scatter from the near-surface to the seafloor, are used to assess physical and biological characteristics of the ocean including the spatial distribution of plankton, fish, methane seeps, and underwater oil plumes.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "About preparing data, we have learned and tried to use lotus code from Filecoin network.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "aws s3 ls --no-sign-request s3://noaa-wcsd-pds/\r\n\r\nS3 Bucket: \"noaa-wcsd-pds\"\r\n├── data\r\n│   ├── processed\r\n│   │   ├── SH1305\r\n│   │   │   ├── 18kHz\r\n│   │   │   │   ├── SaKe_2013-D20130522-T134850.csv\r\n│   │   │   │   ├── SaKe_2013-D20130522-T140446_to_SaKe2013-D20130522-T145239.csv\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── 38kHz\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── 70kHz\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── 120kHz\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── 200kHz\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── bottom\r\n│   │   │   │   ├── SaKe_2013-D20130522-T134850.csv\r\n│   │   │   │   ├── SaKe_2013-D20130522-T140446_to_SaKe2013-D20130522-T145239.csv\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── multifrequency\r\n│   │   │   │   ├── SaKe_2013-D20130522-T134850.csv\r\n│   │   │   │   ├── SaKe_2013-D20130522-T140446_to_SaKe2013-D20130522-T145239.csv\r\n│   │   │   │   ├── ...\r\n│   │   │   ├── ...\r\n│   │   ├── GU1002\r\n│   │   │   ├── ...\r\n│   │   ├── AL0502\r\n│   │   │   ├── ...\r\n│   │   ├── ...\r\n│   ├── raw\r\n│   │   ├── Bell_M_Shimada\r\n│   │   │   ├── SH1305\r\n│   │   │   │   ├── EK60\r\n│   │   │   │   │   ├── SaKe_2013-D20130623-T063450.raw\r\n│   │   │   │   │   ├── SaKe_2013-D20130623-T064452.raw\r\n│   │   │   │   │   ├── SaKe_2013-D20130623-T064452.bot\r\n│   │   │   │   │   ├── ...\r\n│   │   ├── Gordon_Gunter\r\n│   │   │   ├── GU1002\r\n│   │   │   │   ├── EK60\r\n│   │   │   │   │   ├── ...\r\n│   │   ├── Albatross_IV\r\n│   │   │   ├── AL0502\r\n│   │   │   │   ├── EK60\r\n│   │   │   │   │   ├── ...\r\n│   │   │   │   ├── ...\r\n│   │   ├── ...",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[X] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server, Shipping hard drives, Lotus built-in data transfer",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03228820  KR\r\nf03157883  SZ\r\nf02826588  SZ\r\nf02826007  SG\r\nf01082888  HK\r\nf03081958  China",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "8PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 8,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2024-12-03 10:13:40.064935809 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1k6f5eepyhbrz2onfjwnlzhxuli3iuhskw2wluua",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
