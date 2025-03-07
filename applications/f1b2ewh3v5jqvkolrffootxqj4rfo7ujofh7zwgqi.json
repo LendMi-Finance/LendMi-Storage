@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1b2ewh3v5jqvkolrffootxqj4rfo7ujofh7zwgqi",
+  "Issue Number": "33",
+  "Client": {
+    "Name": "QED",
+    "Region": "Armenia",
+    "Industry": "Resources, Agriculture & Fisheries",
+    "Website": "https://registry.opendata.aws/afsis/；https://aws.amazon.com/marketplace/pp/prodview-z6d6q7p7a65xe?sr=0-3&ref_=beagle&applicationId=AWSMPContessa#resources",
+    "Social Media": "https://aws.amazon.com/marketplace/pp/prodview-z6d6q7p7a65xe?sr=0-3&ref_=beagle&applicationId=AWSMPContessa#resources",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "This dataset contains soil infrared spectral data and paired soil property reference measurements for georeferenced soil samples that were collected through the Africa Soil Information Service (AfSIS) project, which lasted from 2009 through 2018. In this release, we include data collected during Phase I (2009-2013.) Georeferenced samples were collected from 19 countries in Sub-Saharan African using a statistically sound sampling scheme, and their soil properties were analyzed using both conventional soil testing methods and spectral methods (infrared diffuse reflectance spectroscopy). The two types of data can be paired to form a training dataset for machine learning, such that certain soil properties can be well-predicted through less expensive spectral techniques.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "This dataset contains soil infrared spectral data and paired soil property reference measurements for georeferenced soil samples that were collected through the Africa Soil Information Service (AfSIS) project, which lasted from 2009 through 2018. In this release, we include data collected during Phase I (2009-2013.) Georeferenced samples were collected from 19 countries in Sub-Saharan African using a statistically sound sampling scheme, and their soil properties were analyzed using both conventional soil testing methods and spectral methods (infrared diffuse reflectance spectroscopy). The two types of data can be paired to form a training dataset for machine learning, such that certain soil properties can be well-predicted through less expensive spectral techniques.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://aws.amazon.com/marketplace/pp/prodview-z6d6q7p7a65xe?sr=0-3&ref_=beagle&applicationId=AWSMPContessa#links",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, North America, South America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf02916974 United States\nf02952530 Thailand\nf03233356 South Korea",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4PiB",
+    "Single Size Dataset": "1PiB",
+    "Replicas": 4,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-07 10:17:10.827377997 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1b2ewh3v5jqvkolrffootxqj4rfo7ujofh7zwgqi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
