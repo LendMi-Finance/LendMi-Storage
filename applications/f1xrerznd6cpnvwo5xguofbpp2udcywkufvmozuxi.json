@@ -1,0 +1,66 @@
+{
+  "Version": "1.3",
+  "ID": "f1xrerznd6cpnvwo5xguofbpp2udcywkufvmozuxi",
+  "Issue Number": "29",
+  "Client": {
+    "Name": "Andrej Karpathy",
+    "Region": "United States",
+    "Industry": "IT & Technology Services",
+    "Website": "https://karpathy.ai/",
+    "Social Media": "X: https://x.com/karpathy",
+    "Social Media Type": "Twitter",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "Binary Wave is a specialized data-preparation team that assists organizations, including AI research groups, in managing their data needs. Their core services encompass data storage, transfer, and processing, ensuring clients can efficiently handle large datasets crucial for their operations.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "Sports-1M is a comprehensive dataset comprising approximately 1,133,158 videos. The dataset was introduced by Andrej Karpathy and colleagues in their work on large-scale video classification with convolutional neural networks.",
+    "Where was the data currently stored in this dataset sourced from": "Google Cloud",
+    "How do you plan to prepare the dataset": "Verified, mature software set to process",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://www.youtube.com/watch?v=UDqivjS-lpI",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "Permanently",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China",
+    "How will you be distributing your data to storage providers": "Others",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f01422327, Japan\nf02252023, Japan\nf02252024, Japan\nf01111110, Vietnam\nf01909705, Vietnam\nf03230423, Malaysia\nf03281237, Malaysia\nf01989013, Malaysia",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "4 PiB",
+    "Single Size Dataset": "500 TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "800 TiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-03-07 03:38:36.922627209 UTC",
+    "Validated By": "Rongze92",
+    "Active": true,
+    "Updated At": "2025-03-07 03:38:36.922623313 UTC",
+    "Active Request ID": "b4d0814b-3e7f-416a-9821-172fdcdcc38a",
+    "On Chain Address": "f1xrerznd6cpnvwo5xguofbpp2udcywkufvmozuxi",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "b4d0814b-3e7f-416a-9821-172fdcdcc38a",
+      "Request Type": "First",
+      "Created At": "2025-03-07 03:36:53.242686972 UTC",
+      "Updated At": "2025-03-07 03:36:53.242687909 UTC",
+      "Active": false,
+      "Allocation Amount": "100 TiB",
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-03-07 03:38:34.320000000 UTC",
+          "Message CID": "bafy2bzacecckd5uqzzmu3m5ngg3akyusbyyncodla5z7bibycrsnb2445gbv2"
+        }
+      ]
+    }
+  ]
+}
