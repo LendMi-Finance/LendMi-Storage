@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1zggohjqchnee6soqs7h66qyugn64z6dir6a6zyq",
+  "Issue Number": "35",
+  "Client": {
+    "Name": "Motional, Inc.",
+    "Region": "Armenia",
+    "Industry": "Construction, Property & Real Estate",
+    "Website": "https://www.nuscenes.org；https://registry.opendata.aws/motional-nuscenes/",
+    "Social Media": "https://www.nuscenes.org；https://registry.opendata.aws/motional-nuscenes/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving developed by the team at Motional (formerly nuTonomy). Motional is making driverless vehicles a safe, reliable, and accessible reality. By releasing a subset of our data to the public, Motional aims to support public research into computer vision and autonomous driving.\n\nFor this purpose we collected 1000 driving scenes in Boston and Singapore, two cities that are known for their dense traffic and highly challenging driving situations. The scenes of 20 second length are manually selected to show a diverse and interesting set of driving maneuvers, traffic situations and unexpected behaviors. The rich complexity of nuScenes will encourage development of methods that enable safe driving in urban areas with dozens of objects per scene. Gathering data on different continents further allows us to study the generalization of computer vision algorithms across different locations, weather conditions, vehicle types, vegetation, road markings and left versus right hand traffic.\n\nTo facilitate common computer vision tasks, such as object detection and tracking, we annotate 23 object classes with accurate 3D bounding boxes at 2Hz over the entire dataset. Additionally we annotate object-level attributes such as visibility, activity and pose.\n\nIn March 2019, we released the full nuScenes dataset with all 1,000 scenes. The full dataset includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes. Additional features (map layers, raw sensor data, etc.) will follow soon. We are also organizing the nuScenes 3D detection challenge as part of the Workshop on Autonomous Driving at CVPR 2019.\n\nThe nuScenes dataset is inspired by the pioneering KITTI dataset. nuScenes is the first large-scale dataset to provide data from the entire sensor suite of an autonomous vehicle (6 cameras, 1 LIDAR, 5 RADAR, GPS, IMU). Compared to KITTI, nuScenes includes 7x more object annotations.\n\nWhereas most of the previously released datasets focus on camera-based object detection (Cityscapes, Mapillary Vistas, Apolloscapes, Berkeley Deep Drive), the goal of nuScenes is to look at the entire sensor suite.\n\nIn July 2020, we released nuScenes-lidarseg. In nuScenes-lidarseg, we annotate each lidar point from a keyframe in nuScenes with one of 32 possible semantic labels (i.e. lidar semantic segmentation). As a result, nuScenes-lidarseg contains 1.4 billion annotated points across 40,000 pointclouds and 1000 scenes (850 scenes for training and validation, and 150 scenes for testing).",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The nuScenes dataset (pronounced /nuːsiːnz/) is a public large-scale dataset for autonomous driving developed by the team at Motional (formerly nuTonomy). Motional is making driverless vehicles a safe, reliable, and accessible reality. By releasing a subset of our data to the public, Motional aims to support public research into computer vision and autonomous driving.\n\nFor this purpose we collected 1000 driving scenes in Boston and Singapore, two cities that are known for their dense traffic and highly challenging driving situations. The scenes of 20 second length are manually selected to show a diverse and interesting set of driving maneuvers, traffic situations and unexpected behaviors. The rich complexity of nuScenes will encourage development of methods that enable safe driving in urban areas with dozens of objects per scene. Gathering data on different continents further allows us to study the generalization of computer vision algorithms across different locations, weather conditions, vehicle types, vegetation, road markings and left versus right hand traffic.\n\nTo facilitate common computer vision tasks, such as object detection and tracking, we annotate 23 object classes with accurate 3D bounding boxes at 2Hz over the entire dataset. Additionally we annotate object-level attributes such as visibility, activity and pose.\n\nIn March 2019, we released the full nuScenes dataset with all 1,000 scenes. The full dataset includes approximately 1.4M camera images, 390k LIDAR sweeps, 1.4M RADAR sweeps and 1.4M object bounding boxes in 40k keyframes. Additional features (map layers, raw sensor data, etc.) will follow soon. We are also organizing the nuScenes 3D detection challenge as part of the Workshop on Autonomous Driving at CVPR 2019.\n\nThe nuScenes dataset is inspired by the pioneering KITTI dataset. nuScenes is the first large-scale dataset to provide data from the entire sensor suite of an autonomous vehicle (6 cameras, 1 LIDAR, 5 RADAR, GPS, IMU). Compared to KITTI, nuScenes includes 7x more object annotations.\n\nWhereas most of the previously released datasets focus on camera-based object detection (Cityscapes, Mapillary Vistas, Apolloscapes, Berkeley Deep Drive), the goal of nuScenes is to look at the entire sensor suite.\n\nIn July 2020, we released nuScenes-lidarseg. In nuScenes-lidarseg, we annotate each lidar point from a keyframe in nuScenes with one of 32 possible semantic labels (i.e. lidar semantic segmentation). As a result, nuScenes-lidarseg contains 1.4 billion annotated points across 40,000 pointclouds and 1000 scenes (850 scenes for training and validation, and 150 scenes for testing).",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://registry.opendata.aws/motional-nuscenes/\n\nDescription\nnuScenes Dataset\nResource type\nS3 Bucket\nAmazon Resource Name (ARN)\narn:aws:s3:::motional-nuscenes\nAWS Region\nap-northeast-1\nAWS CLI Access (No AWS account required)\naws s3 ls --no-sign-request s3://motional-nuscenes/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Cloud storage (i.e. S3), Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf02916974 United States\nf02952530 Thailand\nf03233356 South Korea",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "6PiB",
+    "Single Size Dataset": "600TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "512TiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-03-08 06:21:43.149311145 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1zggohjqchnee6soqs7h66qyugn64z6dir6a6zyq",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
