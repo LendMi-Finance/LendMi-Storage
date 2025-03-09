@@ -35,11 +35,11 @@
     "Weekly Allocation": "800 TiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-03-09 08:44:43.131868765 UTC",
+    "State": "Granted",
+    "Validated At": "2025-03-09 08:46:41.559517476 UTC",
     "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2025-03-09 08:44:43.131872023 UTC",
+    "Updated At": "2025-03-09 08:46:41.559513576 UTC",
     "Active Request ID": "4091b24a-18c9-4d19-a29f-060fd746fcd6",
     "On Chain Address": "f1xrerznd6cpnvwo5xguofbpp2udcywkufvmozuxi",
     "Multisig Address": "false",
@@ -67,9 +67,16 @@
       "Request Type": "Refill",
       "Created At": "2025-03-09 08:44:43.131874882 UTC",
       "Updated At": "2025-03-09 08:44:43.131875488 UTC",
-      "Active": true,
-      "Allocation Amount": "256TiB",
-      "Signers": []
+      "Active": false,
+      "Allocation Amount": "256 TiB",
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-03-09 08:46:38.886000000 UTC",
+          "Message CID": "bafy2bzacedglxospzldu3bk7g5zqv6yzkykwfbobrojcv5ynuks4rkr35m6os"
+        }
+      ]
     }
   ]
 }
