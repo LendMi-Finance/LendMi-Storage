@@ -36,11 +36,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-03-18 07:20:36.116530836 UTC",
+    "Validated At": "2025-03-25 02:11:37.945844794 UTC",
     "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2025-03-18 07:20:36.116526086 UTC",
-    "Active Request ID": "341b49d9-4a45-4fba-9030-e18e60ebe4d3",
+    "Updated At": "2025-03-25 02:11:37.945840871 UTC",
+    "Active Request ID": "69738d19-d631-406f-acb4-08e31fa6284c",
     "On Chain Address": "f1zggohjqchnee6soqs7h66qyugn64z6dir6a6zyq",
     "Multisig Address": "false",
     "edited": false
@@ -91,6 +91,22 @@
           "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
           "Created At": "2025-03-18 07:20:32.880000000 UTC",
           "Message CID": "bafy2bzaceakgg5sw2o7td7nv3jzmmochocdxfdks4c2vaic3yvlxr5txoqvus"
+        }
+      ]
+    },
+    {
+      "ID": "69738d19-d631-406f-acb4-08e31fa6284c",
+      "Request Type": "Refill",
+      "Created At": "2025-03-25 02:09:33.460550153 UTC",
+      "Updated At": "2025-03-25 02:09:33.460550840 UTC",
+      "Active": false,
+      "Allocation Amount": "312 TiB",
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-03-25 02:11:34.900000000 UTC",
+          "Message CID": "bafy2bzaceapql5e7vqcyvxelorswayao3ciubph6doxhl5mdjivrqun352zsk"
         }
       ]
     }
