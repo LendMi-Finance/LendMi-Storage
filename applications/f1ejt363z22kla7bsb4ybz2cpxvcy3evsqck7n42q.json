@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1ejt363z22kla7bsb4ybz2cpxvcy3evsqck7n42q",
+  "Issue Number": "46",
+  "Client": {
+    "Name": "Thomas Coleman",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://registry.opendata.aws/nrel-pds-porotomo/；https://github.com/openEDI/documentation/blob/main/PoroTomo/PoroTomo.md",
+    "Social Media": "https://github.com/openEDI/documentation/blob/main/PoroTomo/PoroTomo.md",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The data were collected during March 2016 at the PoroTomo Natural Laboratory in Brady's Hot Springs, Nevada.\n\nSilixa’s iDAS (TM) was used for DAS data acquisition with 1.021 m channel spacing and a guage length of 10 m. Data in this archive are in .sgy and .h5 files with raw units (radians of optical phase change per time sample) (Miller, et al.).\n\nHorizontal DAS (DASH) data collection began 3/8/2016, paused, and then started again on 3/11/2016 and ended 3/26/2016 using zigzag trenched fiber optic cabels. Vertical DAS (DASV) data collection began 3/17/2016 and ended 3/28/2016 using a fiber optic cable through the first 363 m of a vertical well.\n\nThe resampled DASH data are Matlab files with data for the surface DAS (DASH) array deployed at the PoroTomo natural laboratory in March 2016. Each file contains 30 seconds worth of data for 8721 channels. These files have been resampled in time from the original data and have a sample rate of 100 samples/second.\n\nThe nodal seismometer data consists of continuous and windowed (to vibroseis sweep) SAC files. Nodal data collection began between 3/6/2016 and 3/11/2016 depending on the station, and ended between 3/26/2016 and 3/28/2016 also depending on the station. Station names, locations, start times, stop times, and orientations can be found in the nodal seismometer metadata linked below.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The data were collected during March 2016 at the PoroTomo Natural Laboratory in Brady's Hot Springs, Nevada.\n\nSilixa’s iDAS (TM) was used for DAS data acquisition with 1.021 m channel spacing and a guage length of 10 m. Data in this archive are in .sgy and .h5 files with raw units (radians of optical phase change per time sample) (Miller, et al.).\n\nHorizontal DAS (DASH) data collection began 3/8/2016, paused, and then started again on 3/11/2016 and ended 3/26/2016 using zigzag trenched fiber optic cabels. Vertical DAS (DASV) data collection began 3/17/2016 and ended 3/28/2016 using a fiber optic cable through the first 363 m of a vertical well.\n\nThe resampled DASH data are Matlab files with data for the surface DAS (DASH) array deployed at the PoroTomo natural laboratory in March 2016. Each file contains 30 seconds worth of data for 8721 channels. These files have been resampled in time from the original data and have a sample rate of 100 samples/second.\n\nThe nodal seismometer data consists of continuous and windowed (to vibroseis sweep) SAC files. Nodal data collection began between 3/6/2016 and 3/11/2016 depending on the station, and ended between 3/26/2016 and 3/28/2016 also depending on the station. Station names, locations, start times, stop times, and orientations can be found in the nodal seismometer metadata linked below.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "s3://nrel-pds-porotomo/Nodal/nodal_metadata：1.3-15.5 MB\ns3://nrel-pds-porotomo/Nodal/nodal_sac：45-173 MB\n\ns3://nrel-pds-porotomo/DAS/SEG-Y/DASH:\n\nsize: ~1-2 GB each\nshape: 8721 traces x 30000 samples/trace\ns3://nrel-pds-porotomo/DAS/SEG-Y/DASH/Resampled:\n\nformat: MATLAB files created through resampling of SEG-Y files\nsize: ~0.19 MB\nshape of 'data' object: 30000 npts x 8721 nch\ns3://nrel-pds-porotomo/DAS/SEG-Y/DASV:\n\nsize: ~0.01-0.02 GB each\nshape: 384 traces x 30000 samples/trace",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1.5 to 2 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, Africa, Europe",
+    "How will you be distributing your data to storage providers": "HTTP or FTP server, Cloud storage (i.e. S3)",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f03233304 US\nf02924003 US\nf02893152 Vietnam\nf02866013 Russia\nf02826126 HK\nf02827880\tHK\nf02827045\tShanghai\nf02827288\tShanghai",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "2.5PiB",
+    "Single Size Dataset": "250TiB",
+    "Replicas": 10,
+    "Weekly Allocation": "2PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-04-20 06:24:42.334379177 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1ejt363z22kla7bsb4ybz2cpxvcy3evsqck7n42q",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
