@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
   "Issue Number": "31",
+  "Client Contract Address": "f410fci3jb6xm7qhtvtsnozgde4lvyvjsvw227nkzgyi",
   "Client": {
     "Name": "NREL Wind Integration National Dataset",
     "Region": "USA",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-06-24 07:02:52.806926949 UTC",
+    "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2025-03-05 10:34:11.419436867 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-06-24 07:02:52.806931367 UTC",
+    "Active Request ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
+      "Request Type": "First",
+      "Created At": "2025-06-24 07:02:52.806933438 UTC",
+      "Updated At": "2025-06-24 07:02:52.806934387 UTC",
+      "Active": true,
+      "Allocation Amount": "109951162777600 B",
+      "Signers": []
+    }
+  ]
 }
