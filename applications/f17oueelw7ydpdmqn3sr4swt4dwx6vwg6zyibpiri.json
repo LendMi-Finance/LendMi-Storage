@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-06-24 07:02:52.806926949 UTC",
+    "State": "Granted",
+    "Validated At": "2025-06-25 01:43:33.664063814 UTC",
     "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2025-06-24 07:02:52.806931367 UTC",
+    "Updated At": "2025-06-25 01:43:33.664058055 UTC",
     "Active Request ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
@@ -52,9 +52,17 @@
       "Request Type": "First",
       "Created At": "2025-06-24 07:02:52.806933438 UTC",
       "Updated At": "2025-06-24 07:02:52.806934387 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "109951162777600 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-06-25 01:43:30.575000000 UTC",
+          "Message CID": "bafy2bzacecjw4cwcz4f3flyhg5uakviegh7owg2kfiirbl23chjf6gp732no4",
+          "Increase allowance CID": "bafy2bzacedxfx3kxydexflbous72grvsmmp5up3kuyjfqq25eexicex2glf4y"
+        }
+      ]
     }
   ]
 }
