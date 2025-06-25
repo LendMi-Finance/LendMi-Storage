@@ -1,0 +1,68 @@
+{
+  "Version": "1.3",
+  "ID": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
+  "Issue Number": "31",
+  "Client Contract Address": "f410fci3jb6xm7qhtvtsnozgde4lvyvjsvw227nkzgyi",
+  "Client": {
+    "Name": "NREL Wind Integration National Dataset",
+    "Region": "USA",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://www.nrel.gov",
+    "Social Media": "https://aws.amazon.com/marketplace/pp/prodview-ykfcovxxc4vnw?sr=0-30&ref_=beagle&applicationId=AWSMPContessa#overview",
+    "Social Media Type": "Slack",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Wind Integration National Dataset (WIND) Toolkit is an update and expansion of the Eastern Wind Integration Data Set and Western Wind Integration Data Set. It supports the next generation of wind integration studies.\nThe WIND Toolkit Long-term Ensemble Dataset (WTK-LED) further enhances wind modeling by combining offshore and continental datasets and by quantifying model uncertainty.\nThese datasets support the next generation of wind integration studies and energy forecasting tools. Both toolkits have been funded by the U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Wind Energy Technologies Office.\nThe WIND Toolkit, which was created through the collaborative efforts of NREL and 3TIER, includes instantaneous meteorological conditions from computer model output and calculated turbine power for more than 126,000 sites in the continental United States for the years 2007–2013. It features three datasets:\nThe meteorological dataset includes basic information on the weather conditions in each 2-km x 2-km grid cell. The meteorological dataset also includes parameters such as wind profiles, atmospheric stability, and solar radiation data in those cells.\nThe power dataset was created using wind data at 100-meter hub height and site-appropriate turbine power curves to estimate the power produced at each of the turbine sites.\nThe forecast dataset includes forecasts for 1-hour, 4-hour, 6-hour, and 24-hour forecast horizons.\nWTK-LED features 2–4-km spatial resolution and 5-minute to hourly temporal resolution for offshore and land-based wind in the continental United States, Hawaii, and Alaska. It uses ensemble-based modeling for uncertainty quantification.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "The Wind Integration National Dataset (WIND) Toolkit is an update and expansion of the Eastern Wind Integration Data Set and Western Wind Integration Data Set. It supports the next generation of wind integration studies.\nThe WIND Toolkit Long-term Ensemble Dataset (WTK-LED) further enhances wind modeling by combining offshore and continental datasets and by quantifying model uncertainty.\nThese datasets support the next generation of wind integration studies and energy forecasting tools. Both toolkits have been funded by the U.S. Department of Energy, Office of Energy Efficiency and Renewable Energy, Wind Energy Technologies Office.\nThe WIND Toolkit, which was created through the collaborative efforts of NREL and 3TIER, includes instantaneous meteorological conditions from computer model output and calculated turbine power for more than 126,000 sites in the continental United States for the years 2007–2013. It features three datasets:\nThe meteorological dataset includes basic information on the weather conditions in each 2-km x 2-km grid cell. The meteorological dataset also includes parameters such as wind profiles, atmospheric stability, and solar radiation data in those cells.\nThe power dataset was created using wind data at 100-meter hub height and site-appropriate turbine power curves to estimate the power produced at each of the turbine sites.\nThe forecast dataset includes forecasts for 1-hour, 4-hour, 6-hour, and 24-hour forecast horizons.\nWTK-LED features 2–4-km spatial resolution and 5-minute to hourly temporal resolution for offshore and land-based wind in the continental United States, Hawaii, and Alaska. It uses ensemble-based modeling for uncertainty quantification.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "Take nrel-pds-wtk/seasiawind_v2 as an example, each file size is 130.1GB,\n\nWe first use AWS's s3 tool to download all the data, and then split each large file into about 17G in size;\nMake it into a car file and put the splitting method in the index file; so that the downloader can find the combination method of the original file;\nFiles in other directories are also processed in the same way.\n",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=india%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=maine%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=gulf_of_mexico%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=mexico%2Fv1.0.0%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=canada%2Fv1.0.0bc%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Mid_Atlantic%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=Mid_Atlantic%2F2000%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-us%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=seasiawind%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=now23_california%2Fv1.0.0%2F60min%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=bchrrr%2Fv1.0.0%2F\nhttps://data.openei.org/s3_viewer?bucket=nrel-pds-wtk&prefix=wtk-led%2Fclimate%2Fv1.0.0%2F\n",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "2 to 3 years",
+    "In which geographies do you plan on making storage deals": "Greater China, Asia other than Greater China, North America, Europe",
+    "How will you be distributing your data to storage providers": "Shipping hard drives, HTTP or FTP server",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02869125 France\nf02916974 United States\nf02952530 Thailand\nf03233356 South Korea\nf02874347 United States\n",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "16.2PiB",
+    "Single Size Dataset": "1.8PiB",
+    "Replicas": 9,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Granted",
+    "Validated At": "2025-06-25 01:43:33.664063814 UTC",
+    "Validated By": "Rongze92",
+    "Active": true,
+    "Updated At": "2025-06-25 01:43:33.664058055 UTC",
+    "Active Request ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
+    "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": [
+    {
+      "ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
+      "Request Type": "First",
+      "Created At": "2025-06-24 07:02:52.806933438 UTC",
+      "Updated At": "2025-06-24 07:02:52.806934387 UTC",
+      "Active": false,
+      "Allocation Amount": "109951162777600 B",
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-06-25 01:43:30.575000000 UTC",
+          "Message CID": "bafy2bzacecjw4cwcz4f3flyhg5uakviegh7owg2kfiirbl23chjf6gp732no4",
+          "Increase allowance CID": "bafy2bzacedxfx3kxydexflbous72grvsmmp5up3kuyjfqq25eexicex2glf4y"
+        }
+      ]
+    }
+  ]
+}
