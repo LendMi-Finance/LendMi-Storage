@@ -37,11 +37,11 @@
   },
   "Lifecycle": {
     "State": "Granted",
-    "Validated At": "2025-06-25 01:43:33.664063814 UTC",
+    "Validated At": "2025-06-25 02:45:03.223592896 UTC",
     "Validated By": "Rongze92",
     "Active": true,
-    "Updated At": "2025-06-25 01:43:33.664058055 UTC",
-    "Active Request ID": "9544a6bd-524e-4c96-a282-ee382b8312cd",
+    "Updated At": "2025-06-25 02:45:03.223591804 UTC",
+    "Active Request ID": "b74bdec7-65af-4e89-8952-c67ece5873ae",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
     "edited": false
@@ -61,6 +61,38 @@
           "Created At": "2025-06-25 01:43:30.575000000 UTC",
           "Message CID": "bafy2bzacecjw4cwcz4f3flyhg5uakviegh7owg2kfiirbl23chjf6gp732no4",
           "Increase allowance CID": "bafy2bzacedxfx3kxydexflbous72grvsmmp5up3kuyjfqq25eexicex2glf4y"
+        }
+      ]
+    }
+  ],
+  "Storage Providers Change Requests": [
+    {
+      "ID": "453f3785-63a1-441c-b172-1f0b100d9375",
+      "Created At": "2025-06-25 02:45:03.223459649 UTC",
+      "Updated At": "2025-06-25 02:45:03.223463404 UTC",
+      "Active": false,
+      "Allowed Storage Providers": [
+        2916974,
+        2869125,
+        2930717,
+        2874347,
+        3233356
+      ],
+      "Max Deviation": "10%",
+      "Signers": [
+        {
+          "Github Username": "Rongze92",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Set Max Deviation CID": "bafy2bzacebt6oobd6z6qf2ebsxgy26wmoszbmnk4lh6vj6ykve5zaivodtaai",
+          "Add Allowed Storage Providers CID": {
+            "bafy2bzaceagu3lixfzcgpl3ztl54b6xzejdd3stgknwxnmnx55ewbiqogb3zw": [
+              "2916974",
+              "2869125",
+              "2930717",
+              "2874347",
+              "3233356"
+            ]
+          }
         }
       ]
     }
