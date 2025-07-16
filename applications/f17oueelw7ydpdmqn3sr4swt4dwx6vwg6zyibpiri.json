@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
   "Issue Number": "31",
+  "Client Contract Address": "f410fci3jb6xm7qhtvtsnozgde4lvyvjsvw227nkzgyi",
   "Client": {
     "Name": "NREL Wind Integration National Dataset",
     "Region": "USA",
@@ -35,17 +36,27 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Submitted",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-07-16 06:31:08.188674082 UTC",
+    "Validated By": "LendMi",
     "Active": true,
-    "Updated At": "2025-07-16 06:30:29.705183658 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-07-16 06:31:08.188677852 UTC",
+    "Active Request ID": "fde15048-27c0-4900-8fd7-2646d62f3c1d",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": [],
+  "Allocation Requests": [
+    {
+      "ID": "fde15048-27c0-4900-8fd7-2646d62f3c1d",
+      "Request Type": "First",
+      "Created At": "2025-07-16 06:31:08.188679705 UTC",
+      "Updated At": "2025-07-16 06:31:08.188680732 UTC",
+      "Active": true,
+      "Allocation Amount": "1125899906842624 B",
+      "Signers": []
+    }
+  ],
   "Storage Providers Change Requests": [
     {
       "ID": "453f3785-63a1-441c-b172-1f0b100d9375",
