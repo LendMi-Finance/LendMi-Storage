@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-22 07:18:50.112681374 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-22 07:21:35.077438071 UTC",
     "Validated By": "LendMi",
     "Active": true,
-    "Updated At": "2025-08-22 07:18:50.112685025 UTC",
+    "Updated At": "2025-08-22 07:21:35.077434847 UTC",
     "Active Request ID": "3f611ce3-24bc-415e-a9c5-1cea45330eda",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
@@ -120,9 +120,17 @@
       "Request Type": "Refill",
       "Created At": "2025-08-22 07:18:50.112697425 UTC",
       "Updated At": "2025-08-22 07:18:50.112698293 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "362838837166080B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "LendMi",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-08-22 07:21:32.072000000 UTC",
+          "Message CID": "bafy2bzacebpj7wv67knqz4evy2fbgkn4ud5whd7fdsgwkadbxdgmmcct3oxg2",
+          "Increase allowance CID": "bafy2bzaceadvxv35hzgsnrcbrq54pttfprug4257h2ksgtpts7wrhva4ommzm"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
