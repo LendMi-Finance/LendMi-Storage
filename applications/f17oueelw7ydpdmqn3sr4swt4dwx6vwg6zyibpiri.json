@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-08-25 08:36:37.990416936 UTC",
+    "State": "Granted",
+    "Validated At": "2025-08-25 08:39:10.774640728 UTC",
     "Validated By": "LendMi",
     "Active": true,
-    "Updated At": "2025-08-25 08:36:37.990420176 UTC",
+    "Updated At": "2025-08-25 08:39:10.774636583 UTC",
     "Active Request ID": "55e3bb6d-0ebe-453c-a869-fcc76548a6c8",
     "On Chain Address": "f17oueelw7ydpdmqn3sr4swt4dwx6vwg6zyibpiri",
     "Multisig Address": "false",
@@ -137,9 +137,18 @@
       "Request Type": "Refill",
       "Created At": "2025-08-25 08:36:37.990429507 UTC",
       "Updated At": "2025-08-25 08:36:37.990430326 UTC",
-      "Active": true,
+      "Active": false,
       "Allocation Amount": "1688849860263936B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "1688849860263936B",
+      "Signers": [
+        {
+          "Github Username": "LendMi",
+          "Signing Address": "f12mckci3omexgzoeosjvstcfxfe4vqw7owdia3da",
+          "Created At": "2025-08-25 08:39:07.850000000 UTC",
+          "Message CID": "bafy2bzacecci6e343nk6qdiafmtddpsqfjxosrjd4diho4vif2ctxelilz572",
+          "Increase allowance CID": "bafy2bzacec6lmshme7cf5cbykn6axxkvrbhyge4rkh3gafbid4h2nfxdnhfkc"
+        }
+      ]
     }
   ],
   "Storage Providers Change Requests": [
