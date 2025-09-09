@@ -30,8 +30,8 @@ Public Open Allocator Pathway
 - Fifth and thereafter: max no more than 2PiB
 
 #### Storage Requirements
-- **Replicas Required**: 5 (verified by CID checker)
-- **Number of Storage Providers Required**: 5
+- **Replicas Required**: 5-8 (verified by CID checker)
+- **Number of Storage Providers Required**: 5-8
 - **DataCap Allocation Limits**: 20%
 
 ### Verification & Compliance
